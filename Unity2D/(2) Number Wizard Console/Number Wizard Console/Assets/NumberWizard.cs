@@ -6,12 +6,14 @@ public class NumberWizard : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Welcome to Number Wizard")	;
 
-		//Challenge
+		int max = 1000;
+		int min = 1;
+
+		Debug.Log("Welcome to Number Wizard");
 		Debug.Log("Pick a number: ");
-		Debug.Log("The highest number you can pick is 1000");
-		Debug.Log("The lowest number you can pick is 1");
+		Debug.Log("The highest number you can pick is " + max);
+		Debug.Log("The lowest number you can pick is " + min);
 
 	}
 	
